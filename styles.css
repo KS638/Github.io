@@ -1,0 +1,116 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0a1128; /* Dark Blue */
+    color: #f4e1d2; /* Light Pinkish Undertone */
+    line-height: 1.6;
+}
+
+h1, h2 {
+    color: #ffd700; /* Gold */
+}
+
+p {
+    color:hotpink; /* Hot Pink */
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: #ffd700; /* Gold text */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px; /* Adjust this value as needed to control the distance from the top */
+}
+
+
+.header-content {
+    max-width: 600px;
+    background: rgba(10, 17, 40, 0.8); /* Dark Blue with opacity */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+
+#WN {
+    color: white;
+}
+
+.cta-button {
+    background-color: #ff4d6d; /* Pink Button */
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    transition: background-color 0.3s;
+    color: #0a1128; /* Dark Blue text */
+}
+
+.cta-button:hover {
+    background-color: #d93a5f; /* Darker Pink */
+}
+
+/* About Section */
+#about-book, #author, #reviews, #buy {
+    padding: 50px 0;
+    text-align: center;
+    background-color: #1a2341; /* Dark Blue */
+    margin-bottom: 20px;
+    color: #ffd700; /* Gold text */
+}
+
+#about-book h2, #author h2, #reviews h2, #buy h2 {
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+}
+
+blockquote {
+    font-style: italic;
+    color: #ff4d6d; /* Pink quotes */
+    margin: 20px 0;
+}
+
+cite {
+    font-size: 1.2rem;
+    color: #e0b3b3; /* Soft Pink */
+}
+
+/* Footer */
+footer {
+    background-color: #0a1128; /* Dark Blue */
+    color: #ffd700; /* Gold text */
+    padding: 20px;
+    text-align: center;
+}
+
+footer a {
+    color: #ff4d6d; /* Pink */
+    font-weight: bold;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
